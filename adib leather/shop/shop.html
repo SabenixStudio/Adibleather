@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/logo white.jpg">
+    <meta name="description" content="به دنیایی از کیفای چرمی خوش اومدین!">
+    <title>سبد خرید</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="shcss/sh.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+    <!-- هدر -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../Home/homev1.html">
+                <img src="../logo/no back.png" alt="Logo">
+                </a>
+                <h1><a href="../Home/homev1.html">چرم ادیب</a></h1>
+            </div>
+
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="جستجوی محصولات...">
+            </div>
+
+            <div class="nav-links">
+                <div class="nav-item" id="user-dropdown-trigger">
+                    <i class="fas fa-user"></i>
+                    <span>ورود/ثبت‌نام</span>
+                    <div class="dropdown" id="user-dropdown">
+                        <a href="../sign in/sginin.html"><i class="fas fa-sign-in-alt"></i> ورود به حساب</a>
+                        <a href="../profile/profile.html"><i class="fas fa-user-plus"></i>ویرایش پروفایل</a>
+                        <a href="#"style="color: red;"><i class="fas fa-sign-out-alt" ></i> خروج</a>
+                    </div>
+                </div>
+
+                <div class="nav-item" id="cart-dropdown-trigger">
+                        <i class="fas fa-shopping-cart" style="color: #deaa47;"></i>
+
+
+                    <span style="color:#deaa47;">سبد خرید</span>
+                    <div class="dropdown cart-dropdown" id="cart-dropdown" >
+                        <a href="#"><i class="fas fa-shopping-bag"></i>کالای 1</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 2</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 3</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 4</a>
+                        <a href="#" style="background: #D2B48C; color: #3E2723; text-align: center; font-weight: bold;">مشاهده سبد خرید</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="../product/prd.html">
+                        <i class="fas fa-list"></i>
+
+                        <span>لیست محصولات</span>
+                    </a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="../contact us/contact.html">
+                        <i class="fas fa-info-circle"></i>
+                        <span>درباره ما</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-header">
+                    <h2>سبد خرید شما</h2>
+                    <span>3 کالا</span>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="کیف چرمی زنانه">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-name">کیف دستی زنانه چرم طبیعی</div>
+                        <div class="item-price">1,290,000 تومان</div>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="text" class="quantity-input" value="1" readonly>
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i>
+                                حذف
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1605733513597-a8f8341084e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="کیف پول چرمی مردانه">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-name">کیف پول چرم مردانه طرح کلاسیک</div>
+                        <div class="item-price">680,000 تومان</div>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="text" class="quantity-input" value="1" readonly>
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i>
+                                حذف
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="کمربند چرمی">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-name">کمربند چرم مردانه طرح مدرن</div>
+                        <div class="item-price">420,000 تومان</div>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="text" class="quantity-input" value="2" readonly>
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i>
+                                حذف
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <h3 class="summary-title">خلاصه سفارش</h3>
+                
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>جمع کل کالاها (4 عدد)</span>
+                        <span>2,810,000 تومان</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>تخفیف کالاها</span>
+                        <span>-350,000 تومان</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>هزینه ارسال</span>
+                        <span>رایگان</span>
+                    </div>
+                    <div class="summary-total">
+                        <span>مبلغ قابل پرداخت</span>
+                        <span>2,460,000 تومان</span>
+                    </div>
+                </div>
+                
+                <div class="coupon-section">
+                    <h4>کد تخفیف دارید؟</h4>
+                    <div class="coupon-form">
+                        <input type="text" class="coupon-input" placeholder="کد تخفیف را وارد کنید">
+                        <button class="coupon-btn">اعمال</button>
+                    </div>
+                </div>
+                
+                <a href="#" class="checkout-btn">ادامه فرآیند خرید</a>
+                <a href="../product/prd.html" class="continue-shopping">ادامه خرید از فروشگاه</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- فوتر -->
+   <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>درباره ما</h3>
+                <p>فروشگاه چرم‌ ادیب با بیش از 7 سال سابقه در زمینه تولید و فروش محصولات چرمی باکیفیت، همواره تلاش کرده تا بهترین محصولات را با مناسب‌ترین قیمت‌ها به مشتریان ارائه دهد.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>لینک‌های مفید</h3>
+                <ul class="footer-links">
+                    <li><a href="../Home/homev1.html">صفحه اصلی</a></li>
+                    <li><a href="../sign in/sginin.html">ورود/ثبت نام</a></li>
+                    <li><a href="../product/prd.html">محصولات</a></li>
+                    <li><a href="../contact us/contact.html">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>دسته‌بندی محصولات</h3>
+                <ul class="footer-links">
+                    <li><a href="../product/prd.html">کیف‌های دستی</a></li>
+                    <li><a href="../product/prd.html">کفش چرمی</a></li>
+                    <li><a href="../product/prd.html">کیف های دوشی</a></li>
+                    <li><a href="../product/prd.html">اکسسوری</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>تماس با ما</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> ایران، تهران، شهر جدید پرند، شهرک افتاب، خیابان محلاتی، بلوک c.19.</li>
+                    <li><i class="fas fa-phone"></i> 021-56952048</li>
+                    <li><i class="fas fa-envelope"></i> adib_leather@gmail.com</li>
+                    <li><i class="fas fa-clock"></i> شنبه تا پنجشنبه: 9 صبح تا 8 شب</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2023 فروشگاه محصولات چرمی چرم ادیب. تمامی حقوق محفوظ است.
+        </div>
+    </footer>
+
+   
+    <script src="shjs/sh.js"></script>
+</body>
+</html>

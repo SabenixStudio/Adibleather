@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/logo white.jpg">
+    <title>ویرایش اطلاعات</title>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="procss/pro.css">
+   
+</head>
+<body>
+    <!-- Header & Navbar -->
+   <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../Home/homev1.html">
+                <img src="../logo/no back.png" alt="Logo">
+                </a>
+                <h1><a href="homev1.html">چرم ادیب</a></h1>
+            </div>
+
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="جستجوی محصولات...">
+            </div>
+
+            <div class="nav-links">
+                <div class="nav-item" id="user-dropdown-trigger">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>صفحه اصلی</span>
+                    <div class="dropdown" id="user-dropdown">
+                        <a href="../Home/homev1.html"><i class="fa-solid fa-house-chimney"></i> صفحه اصلی</a>
+                        <a href="#"style="color: red;"><i class="fas fa-sign-out-alt" ></i> خروج</a>
+                    </div>
+                </div>
+
+                <div class="nav-item" id="cart-dropdown-trigger">
+                        <i class="fas fa-shopping-cart"></i>
+
+
+                    <span>سبد خرید</span>
+                    <div class="dropdown cart-dropdown" id="cart-dropdown">
+                        <a href="#"><i class="fas fa-shopping-bag"></i>کالای 1</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 2</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 3</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 4</a>
+                        <a href="../shop/shop.html" style="background: #D2B48C; color: #3E2723; text-align: center; font-weight: bold;">مشاهده سبد خرید</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="../product/prd.html">
+                        <i class="fas fa-list"></i>
+
+                        <span>لیست محصولات</span>
+                    </a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="../contact us/contact.html">
+                        <i class="fas fa-info-circle"></i>
+                        <span>درباره ما</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <div class="profile-header">
+            <h2>ویرایش پروفایل</h2>
+            <p>اطلاعات شخصی خود را به روزرسانی کنید</p>
+        </div>
+        
+        <div class="profile-container">
+            <div class="profile-sidebar">
+                <div class="profile-avatar">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="پروفایل">
+                    <div class="avatar-edit">
+                        <i class="fas fa-camera"></i> تغییر عکس
+                    </div>
+                </div>
+                
+                <div class="profile-info">
+                    <div class="profile-info-item">
+                        <span class="info-label">عضویت از:</span>
+                        <span class="info-value">۱۴۰۲/۰۳/۱۵</span>
+                    </div>
+                    <div class="profile-info-item">
+                        <span class="info-label">تعداد سفارشات:</span>
+                        <span class="info-value">۱۲ سفارش</span>
+                    </div>
+                    <div class="profile-info-item">
+                        <span class="info-label">آخرین بازدید:</span>
+                        <span class="info-value">۲ روز پیش</span>
+                    </div>
+                    <div class="profile-info-item">
+                        <span class="info-label">وضعیت حساب:</span>
+                        <span class="info-value" style="color: #27ae60;">فعال</span>
+                        <span class="info-value" style="color: #d93434;">غیر فعال </span>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="profile-content">
+                <div class="profile-form">
+                    <h3 class="form-title">اطلاعات شخصی</h3>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="fullname">نام کامل</label>
+                                <input type="text" id="fullname" class="form-control" placeholder=" نام و نام خانوادگی">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="email">ایمیل</label>
+                                <input type="email" id="email" class="form-control" placeholder="example@example.com">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="phone">شماره تلفن</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="۰۹۱۲۳۴۵۶۷۸۹">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label>جنسیت</label>
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="gender" value="male" checked>
+                                        آقا
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="gender" value="female">
+                                        خانم
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="birthdate">تاریخ تولد</label>
+                        <input type="date" id="birthdate" class="form-control" placeholder="1375-05-20">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">آدرس کامل</label>
+                        <textarea id="address" class="form-control" rows="4" placeholder="تهران، خیابان انقلاب، پلاک ۱۲۳، طبقه ۴، واحد ۸"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bio">درباره من</label>
+                        <textarea id="bio" class="form-control" rows="3" placeholder="علاقمند به محصولات چرمی باکیفیت و طراحی‌های منحصر به فرد"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">علایق خرید</label>
+                        <input type="text" id="interests" class="form-control" placeholder="کیف دستی, کفش چرمی, اکسسوری">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button class="btn btn-outline">انصراف</button>
+                        <button class="btn">ذخیره تغییرات</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>درباره ما</h3>
+                <p>فروشگاه چرم‌ ادیب با بیش از 7 سال سابقه در زمینه تولید و فروش محصولات چرمی باکیفیت، همواره تلاش کرده تا بهترین محصولات را با مناسب‌ترین قیمت‌ها به مشتریان ارائه دهد.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>لینک‌های مفید</h3>
+                <ul class="footer-links">
+                    <li><a href="../Home/homev1.html">صفحه اصلی</a></li>
+                    <li><a href="../sign in/sginin.html">ورود/ثبت نام</a></li>
+                    <li><a href="../product/prd.html">محصولات</a></li>
+                    <li><a href="../contact us/contact.html">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>دسته‌بندی محصولات</h3>
+                <ul class="footer-links">
+                    <li><a href="../product/prd.html">کیف‌های دستی</a></li>
+                    <li><a href="../product/prd.html">کفش چرمی</a></li>
+                    <li><a href="../product/prd.html">کمربند</a></li>
+                    <li><a href="../product/prd.html">اکسسوری</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>تماس با ما</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> ایران، تهران، شهر جدید پرند، شهرک افتاب، خیابان محلاتی، بلوک c.19.</li>
+                    <li><i class="fas fa-phone"></i> 021-56952048</li>
+                    <li><i class="fas fa-envelope"></i> adib_leather@gmail.com</li>
+                    <li><i class="fas fa-clock"></i> شنبه تا پنجشنبه: 9 صبح تا 8 شب</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2023 فروشگاه محصولات چرمی چرم ادیب. تمامی حقوق محفوظ است.
+        </div>
+    </footer>
+
+
+    <script src="projs/pro.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/logo white.jpg">
+    <meta name="description" content="به دنیایی از کیفای چرمی خوش اومدین!">
+    <title>ورود/ثبت‌ نام</title>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="signcss/sign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600&display=swap" rel="stylesheet">        
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <a href="../Home/homev1.html">
+            <i class="fa-solid fa-house"></i>
+            <span>صفحه اصلی</span>
+        </a>
+        </div>
+    </header>
+    <!-- افکت‌های شناور پس‌زمینه -->
+    <div class="floating-objects">
+        <div class="floating" style="width: 100px; height: 100px; top: 10%; left: 20%;"></div>
+        <div class="floating" style="width: 70px; height: 70px; top: 70%; left: 80%; animation-duration: 12s;"></div>
+        <div class="floating" style="width: 50px; height: 50px; top: 40%; left: 50%; animation-duration: 18s;"></div>
+        <div class="floating" style="width: 120px; height: 120px; top: 80%; left: 30%; animation-duration: 20s;"></div>
+    </div>
+    
+    <div class="container">
+        <div class="profile-container">
+            <!-- لوگوی ادیب-->
+            <img src="../logo/no back.png"
+                 alt="Your Photo" class="profile-image">
+            <div class="profile-frame"></div>
+        </div>
+        
+        <div class="form-header">
+            <h1>فروشگاه محصولات چرمی ادیب</h1>
+            <p>لطفاً برای ورود یا ثبت نام، ایمیل خود را وارد کنید</p>
+        </div>
+        
+        <div class="form-container">
+            <!-- مرحله اول: ایمیل -->
+            <form id="email-form" class="form active">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="example@domain.com" required>
+                </div>
+                <button type="button" id="next-btn" class="btn">ادامه</button>
+            </form>
+            
+            <!-- مرحله دوم: رمز عبور -->
+            <form id="password-form" class="form">
+
+                <!-- الرت رمز -->
+                <p class="alert"> **رمز ورود تطابق ندارد**</p>
+
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="رمز عبور" required>
+                    
+                </div>
+                <div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="تکرار رمز عبور " required>
+
+                    
+                </div>
+                <button type="submit" class="btn">ورود به حساب</button>
+                <a href="#" class="forgot-password">رمز عبور را فراموش کرده‌اید؟</a>
+            </form>
+        </div>
+    </div>
+ <script  src="signinjs/signin.js"></script>
+    </body>
+</html>

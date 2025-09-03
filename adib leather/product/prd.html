@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/logo white.jpg">
+    <meta name="description" content="به دنیایی از کیفای چرمی خوش اومدین!">
+    <title>محصولات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="prdcss/prd.css">
+   
+</head>
+<body>
+    <!-- هدر -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../Home/homev1.html">
+                <img src="../logo/no back.png" alt="Logo">
+                </a>
+                <h1><a href="../Home/homev1.html">چرم ادیب</a></h1>
+            </div>
+
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="جستجوی محصولات...">
+            </div>
+
+            <div class="nav-links">
+                <div class="nav-item" id="user-dropdown-trigger">
+                    <i class="fas fa-user"></i>
+                    <span>ورود/ثبت‌نام</span>
+                    <div class="dropdown" id="user-dropdown">
+                        <a href="../sign in/sginin.html"><i class="fas fa-sign-in-alt"></i> ورود به حساب</a>
+                        <a href="../profile/profile.html"><i class="fas fa-user-plus"></i>ویرایش پروفایل</a>
+                        <a href="#"style="color: red;"><i class="fas fa-sign-out-alt" ></i> خروج</a>
+                    </div>
+                </div>
+
+                <div class="nav-item" id="cart-dropdown-trigger">
+                        <i class="fas fa-shopping-cart"></i>
+
+
+                    <span >سبد خرید</span>
+                    <div class="dropdown cart-dropdown" id="cart-dropdown" >
+                        <a href="#"><i class="fas fa-shopping-bag"></i>کالای 1</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 2</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 3</a>
+                        <a href="#"><i class="fas fa-shopping-bag"></i> کالای 4</a>
+                        <a href="../shop/shop.html" style="background: #D2B48C; color: #3E2723; text-align: center; font-weight: bold;">مشاهده سبد خرید</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#">
+                        <i class="fas fa-list" style="color: #deaa47;"></i>
+
+                        <span style="color:#deaa47;">لیست محصولات</span>
+                    </a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="../contact us/contact.html">
+                        <i class="fas fa-info-circle"></i>
+                        <span>درباره ما</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <!-- بخش قهرمان -->
+        <section class="hero">
+            <h1>محصولات چرمی اصیل و دست‌ساز</h1>
+            <p>کشف کنید مجموعه‌ای از محصولات چرمی با کیفیت که با دقت و ظرافت طراحی و تولید شده‌اند</p>
+        </section>
+        
+        <!-- دسته‌بندی‌ها -->
+        <section class="categories">
+            <div class="category active" data-category="all">
+                <i class="fas fa-gem"></i>
+                <h3>همه محصولات</h3>
+            </div>
+            <div class="category" data-category="accessory">
+                <i class="fas fa-ring"></i>
+                <h3>اکسسوری</h3>
+            </div>
+            <div class="category" data-category="shoulder">
+                <i class="fas fa-bag-shopping"></i>
+                <h3>کیف دوشی</h3>
+            </div>
+            <div class="category" data-category="belt">
+                <i class="fas fa-grip-lines"></i>
+                <h3>کمربند</h3>
+            </div>
+            <div class="category" data-category="handbag">
+                <i class="fas fa-suitcase"></i>
+                <h3>کیف دستی</h3>
+            </div>
+        </section>
+        
+        <!-- محصولات -->
+         <!-- باید صفحه بدی جاکش -->
+        <section class="products-grid">
+            <!-- محصول 1 -->
+            <div class="product-card" data-category="handbag">
+                <div class="product-badge">جدید</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کیف دستی زنانه">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کیف دستی</div>
+                    <a href="../detail/det.html" class="product-name"><h3>کیف دستی چرم زنانه مدل کلاسیک </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="old-price">1,450,000 تومان</span>
+                            <span class="price">1,290,000 تومان</span>
+                        </div>
+                        <span class="discount">11%</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(۴۲)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 2 -->
+            <div class="product-card" data-category="shoulder">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کیف دوشی مردانه">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کیف دوشی</div>
+                    <a href="#" class="product-name"><h3>کیف دوشی چرم مردانه مدل مدرن</h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="price">950,000 تومان</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(۲۸)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 3 -->
+            <div class="product-card" data-category="belt">
+                <div class="product-badge">پرفروش</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کمربند چرمی">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کمربند</div>
+                    <a href="#" class="product-name"><h3>کمربند چرم مردانه طرح مدرن </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="old-price">550,000 تومان</span>
+                            <span class="price">420,000 تومان</span>
+                        </div>
+                        <span class="discount">24%</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(۶۵)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 4 -->
+            <div class="product-card" data-category="accessory">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1605733513597-a8f8341084e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کیف پول چرمی">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">اکسسوری</div>
+                    <a href="#" class="product-name"> <h3>کیف پول چرمی مردانه طرح کلاسیک </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="price">680,000 تومان</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(۳۷)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 5 -->
+            <div class="product-card" data-category="handbag">
+                <div class="product-badge">پرطرفدار</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1546169891-84a9648d0b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کیف دستی مجلسی">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کیف دستی</div>
+                    <a href="#" class="product-name"><h3>کیف دستی زنانه مدل مجلسی </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="price">1,150,000 تومان</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(۱۹)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 6 -->
+            <div class="product-card" data-category="accessory">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1589782182703-2aaa69037b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="دستبند چرمی">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">اکسسوری</div>
+                    <a href="#" class="product-name"><h3>دستبند چرمی زنانه با نگین </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="old-price">320,000 تومان</span>
+                            <span class="price">260,000 تومان</span>
+                        </div>
+                        <span class="discount">19%</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(۵۳)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 7 -->
+            <div class="product-card" data-category="shoulder">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1546169891-b1c0e0a1e0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کیف دوشی زنانه">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کیف دوشی</div>
+                    <a href="#" class="product-name"><h3>کیف دوشی زنانه طرح لاکچری </h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="price">890,000 تومان</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(۴۸)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- محصول 8 -->
+            <div class="product-card" data-category="belt">
+                <div class="product-badge">ویژه</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1605733513449-7a3d7d8f3e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="کمربند زنانه">
+                </div>
+                <div class="product-overlay">
+                    <button class="quick-add-btn">افزودن به سبد خرید</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">کمربند</div>
+                    <a href="#" class="product-name"><h3>کمربند چرم زنانه طرح گلدار</h3></a>
+                    <div class="product-price">
+                        <div>
+                            <span class="old-price">480,000 تومان</span>
+                            <span class="price">380,000 تومان</span>
+                        </div>
+                        <span class="discount">21%</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(۳۱)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- بنر تبلیغاتی -->
+        <section class="promo-banner">
+            <h2>فروش ویژه تابستانه</h2>
+            <p>تا ۴۰٪ تخفیف روی تمام محصولات چرمی - فقط تا پایان تابستان فرصت دارید</p>
+            <button class="promo-btn">مشاهده محصولات تخفیف‌دار</button>
+        </section>
+    </main>
+
+    <!-- فوتر -->
+     <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>درباره ما</h3>
+                <p>فروشگاه چرم‌ ادیب با بیش از 7 سال سابقه در زمینه تولید و فروش محصولات چرمی باکیفیت، همواره تلاش کرده تا بهترین محصولات را با مناسب‌ترین قیمت‌ها به مشتریان ارائه دهد.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>لینک‌های مفید</h3>
+                <ul class="footer-links">
+                    <li><a href="../Home/homev1.html">صفحه اصلی</a></li>
+                    <li><a href="../sign in/sginin.html">ورود/ثبت نام</a></li>
+                    <li><a href="../product/prd.html">محصولات</a></li>
+                    <li><a href="../contact us/contact.html">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>دسته‌بندی محصولات</h3>
+                <ul class="footer-links">
+                    <li><a href="../product/prd.html">کیف‌های دستی</a></li>
+                    <li><a href="../product/prd.html">کفش چرمی</a></li>
+                    <li><a href="../product/prd.html">کیف های دوشی</a></li>
+                    <li><a href="../product/prd.html">اکسسوری</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>تماس با ما</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> ایران، تهران، شهر جدید پرند، شهرک افتاب، خیابان محلاتی، بلوک c.19.</li>
+                    <li><i class="fas fa-phone"></i> 021-56952048</li>
+                    <li><i class="fas fa-envelope"></i> adib_leather@gmail.com</li>
+                    <li><i class="fas fa-clock"></i> شنبه تا پنجشنبه: 9 صبح تا 8 شب</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2023 فروشگاه محصولات چرمی چرم ادیب. تمامی حقوق محفوظ است.
+        </div>
+    </footer>
+
+    <script src="prdjs/prd.js"></script>
+</body>
+</html>
